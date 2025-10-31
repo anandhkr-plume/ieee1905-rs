@@ -1,4 +1,5 @@
+[source.crates-io]
+replace-with = "vendored-sources"
 
-[build]
-rustflags = ["--cfg","tokio_unstable"]
-
+[source.vendored-sources]
+directory = "vendor"
