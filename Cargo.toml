@@ -3,8 +3,7 @@ name = "ieee1905"
 version = "0.1.8"
 edition = "2021"
 repository = "git@github.com:rdkcentral/ieee1905-rs.git"
-license = "Apache-2.0"
-license-file = "LICENSE"
+license = "BSD-3-Clause"
 publish = false    # keep this if you don’t want to publish to crates.io
 
 
