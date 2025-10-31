@@ -157,7 +157,7 @@ bench = false
 
 [[bin]]
 name = "stdio-fixture"
-path = "src/stdio-fixture.rs"
+path = "src/bin/stdio-fixture.rs"
 
 [[example]]
 name = "01_quick"
