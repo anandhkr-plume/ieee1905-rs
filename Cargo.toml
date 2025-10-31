@@ -21,7 +21,7 @@ tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
 tui = "0.19"
 crossterm = "0.29.0"
 netdev = "0.37.3"
-anyhow = "1.0.99"
+anyhow = "1.0.98"
 futures = "0.3"
 eyre = "0.6.12"
 tokio-tasker = "1.2.0"
