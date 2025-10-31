@@ -936,7 +936,7 @@ impl CMDUHandler {
         }
 
         let topology_db =
-            TopologyDatabase::get_instance(source_mac, self.interface_name.clone()).await;
+            TopologyDatabase::get_instance(self.local_al_mac, self.interface_name.clone()).await;
 
         let device_data = Ieee1905DeviceData {
             al_mac: source_mac,
